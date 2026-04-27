@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+    <!-- Lab 2 -->
+    <head>
+        <title>SE111 | W2</title>
+        <meta name="description" content="Week 1">
+        <meta name="author" content="Alex (not my real name)">
+        <meta charset="UTF-8">
+        <link href="./css/simple.css" rel="stylesheet">
+        
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <header>
+        <h1> About Alex </h1>
+
+        <!-- For some reason adding an id to div breaks the css styling. -->
+        <!-- I couldn't figure this one out on how to fix so just going to get rid of the div-->
+        
+        <nav>
+            <a href="./index.html"> Home </a>
+            <a href="./aboutme.html" aria-current="page"> About Me </a>
+            <a href="./projects.html"> Projects </a>
+            <a href="./blog.html"> Blog </a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+                <figure>
+                    <img src="images/purple-space-photo.png"
+                        alt="An image of space and it is in purple"  width="800" height="400">
+                    <figcaption> Space is cool and pretty </figcaption>
+                </figure>
+
+                <!-- Added a section to navigate the about me and everything else required! -->
+
+                <div id="section-nav">
+                    <h2> Navigation: </h2>
+                    
+                    <ul>
+                        <li>
+                            <a href="#bio"> About Me </a>
+
+                            <ul>
+                                <li><a href="#passion"> What I Love Doing </a></li>
+                                <li><a href="#goals"> Goals And Dreams </a></li>
+                            </ul>
+                            
+                        </li>
+
+                        <li><a href="#schooling"> Education </a></li>
+                        
+                        <li>
+                            <a href="#hobbies"> Hobbies </a>
+
+                            <ul>
+                                <li><a href="#stationery"> Pens and Pencils </a></li>
+                            </ul>
+
+                        </li>
+                        
+                        <li><a href="#footer"> Footer </a></li>
+                    </ul>
+                </div>
+
+                <hr>
+
+                <!-- About me that I reused for bio. -->
+                <h2 id="bio"> About Me: </h2>
+                    <p>
+                        Welp, guess I have to write about myself even though I am quite boring and I don't like talking
+                        about myself too much.
+                    </p>
+
+                    <p>
+                        Hello, my name is Alex (not my real name) I'm a full time university student studying Cybersecurity 
+                        and Network Engineering, which basically means I spend a lot of time staring at terminals and wondering 
+                        why something suddenly broke.
+                    </p>
+
+                    <p>
+                        When I'm not tippy, tapping on a keyboard, I'm probably sleeping, eating, 
+                        or thinking about sleeping and eating. <i>I'm a simple creature.</i>
+                    </p>
+
+                    <!-- Add a goofy picture of some animal or similar sleeping -->
+                     <img src="images/anime-girl-shark-sleeping.avif"
+                        alt="An anime girl in a shark costume sleeping" 
+                        class="centered-img" width="400" height="400">
+                     <figcaption> Zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz </figcaption>
+
+                    <h4> What I Love Doing: </h4>
+
+                    <p id="passion">
+                        I do <b class="big-text">loveeeeeeeeeeeeeeeeeeee</b> hardware... like, way more than a healthy amount. 
+                        My long term goal is to get into hardware hacking, especially IoT devices, routers, 
+                        ARM boards, and anything that lets me poke around with some pointy objects and break things on purpose.
+                        Also, lets me melt things.
+                    </p>
+
+                    <p>
+                        I also write a lot of scripts and my own programs. Bash is my current language that I am mostly using, 
+                        but Go is my favorite. Maybe one day I'll actually finish one of the side projects 
+                        sitting in my “half-broken but promising” folder aka Tools folder (last I checked
+                        it is over 90 gb where I store tools I found and archived, but also my own projects.)
+                    </p>
+
+                    <!-- TODO: I can probably add links to some of my github projects -->
+
+                    <h4> Career Goals: </h4>
+
+                    <p id="goals">
+                        Career wise, I have no idea. :D
+                    </p>
+
+                    <hr>
+
+                    <p>
+                        And because food is important, here are my <b>top favorites</b> (in order, 
+                        because this is a serious business):
+                    </p>
+
+                    <ol>
+                        <li>Pizza</li>
+                        <li>Sushi</li>
+                        <li>Shrimp</li>
+                        <li>Salmon</li>
+                    </ol>
+
+                <hr>
+
+                <!-- Education section -->
+                <!-- Wanted to go for a simple rundown of where I attended and stuff. -->
+                <h2 id="schooling"> Education: </h2>
+
+                    <p>
+                        <strong>Cranston High School West</strong> 
+                        <br> Cranston, Rhode Island 
+                        <br> Attended from 2016 - 2018 
+                        <br> High School Diploma Recieved in 2018
+                    </p>
+
+                    <p>
+                        <strong>Private Catholic School</strong> 
+                        <br> Mt. Pleasant, Michigan 
+                        <br> Attended from 2014 - 2016
+                    </p>
+
+                <hr>
+
+                <h2 id="hobbies">Hobbies: </h2>
+                    <p>
+                        Outside of classes and sleeping like a champion, I do have a few hobbies.
+                        Some of them are:
+                    </p>
+                    <ul>
+                        <li>Retro gaming and collecting older consoles</li>
+                        <li>Modding ROMs and experimenting with firmware</li>
+                        <li>Hardware tinkering and exploring tools like JTAG/UART</li>
+                    </ul>
+
+                    <hr>
+
+                    <p>
+                        And because each of these spiraled into full-blown obsessions, 
+                        here's the longer version that explains more in detail:
+                    </p>
+
+
+                    <p>
+                        I have been getting into retro consoles.
+                        I recently ordered a custom <a href="https://en.wikipedia.org/wiki/PlayStation_Portable">PSP 2000</a>, which is probably the start of a dangerous new obsession.
+                        There are so many older games from the early 2000s and earlier that I absolutely adore, like
+                        <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_Ocarina_of_Time"><em>Ocarina of Time</em></a>, <a href="https://en.wikipedia.org/wiki/The_Legend_of_Zelda:_The_Wind_Waker"><em>Wind Waker</em></a>, <a href="https://en.wikipedia.org/wiki/Crash_Bandicoot_(video_game)"><em>Crash Bandicoot</em></a>, and a whole pile of others
+                        that live rent free in my brain because of this beautiful thing called &#10024; <i>nostalgia </i>&#10024;.
+                    </p>
+
+                    <p>
+                        I also want to get into modding ROMs and maybe the firmware itself on these consoles. 
+                        Reverse engineering things and adding my own weird little creations sounds like a great time, 
+                        and also a great way to break something important at three in the morning and prevents
+                        it from booting.
+                    </p>
+
+                    <hr>
+
+                    <p>
+                        A lot of my free time does go into computer hardware projects. Whenever I can, I pick up new devices to
+                        take apart or poke at. Recently I have been messing around with tools like the <a href="https://github.com/tigard-tools/tigard">Tigard</a> and learning how
+                        <a href="https://en.wikipedia.org/wiki/JTAG">JTAG</a> and <a href="https://en.wikipedia.org/wiki/Universal_asynchronous_receiver-transmitter">UART</a> work. It is basically me sitting there with wires everywhere, hoping I do not accidentally
+                        summon smoke.
+                    </p>
+
+                    <!-- TODO: Add pictures of the Tigard -->
+                     <img src="images/tigard-closeup.jpg"
+                        alt="A lovely picture of the tigard which is an orange pbc and has all its ports and pins labelled in black ink"
+                        class="centered-img" width="400" height="400"> <!-- For some reason width and height don't take effect. I don't have time right now to figure out a fix for this. -->
+                     <figcaption> A lovely picture of the tigard </figcaption>
+
+                    <hr>
+
+                    <h4 id="stationery">Pens and Pencils: </h4>
+
+                    <p>
+                        One of my newer hobbies is diving into the very niche world of pens and pencils.
+                        I am especially into mechanical pencils, ballpoint pens, and fountain pens.
+                        There is a surprisingly wholesome community around all of it, and there are so many different kinds of
+                        lead, paper, erasers, and writing tools that it became a whole new rabbit hole.
+                        It is weirdly relaxing and also extremely fun once you fall into it.
+                    </p>
+
+                    <!-- TODO: Add pictures of my writing utensils -->
+                    <div class="row">
+                    <div class="column">
+                        <img src="images/pen-pencil-collection.jpg" alt="My humble pen and pencil collection" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="images/orange-uniball-jetstream-tip.jpg" alt="Close up picture of the tip of my orange uniball jetstream pen" style="width:100%">
+                    </div>
+                    <div class="column">
+                        <img src="images/pentel-kerry-closeup-tip.jpg" alt="Close up picture of the tip of the Pentel Kerry which is in the red variant" style="width:100%">
+                    </div>
+                    <figcaption> Just a few pictures of my pen and pencil collection </figcaption>
+                                    
+        </div>
+    </main>
+
+    <footer id="footer">
+        <p> Made with love &#128151; </p>
+
+        <p>
+            <a href="https://github.com/dleto614" class="fa fa-github"></a>
+            <a href="https://www.linkedin.com/in/dianalebeau" class="fa fa-linkedin"></a>
+        </p>
+    </footer>
+
+</html>
