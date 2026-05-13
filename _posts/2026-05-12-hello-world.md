@@ -53,6 +53,17 @@ I do run Linux so most of the commands and screenshots in these blog posts are o
 I have plans on buying various different devices such as an arm laptop since I have an interest in arm development which I will probably touch up on at some point
 in a post.
 
-### Ending:
+----
 
-Anyways, this was a quick and short blog post and I do apologize for being bad at writing, but it is late and this was more so to test if my blog actually works.
+My favorite colors are red and orange, but unfortunately, both colors are way to bright and too difficult to make it blend well together in UIs (trust me, I've tried).
+
+----
+
+Not entirely sure what else to write about, but most of what I will write about won't be as short. I do apologize for the terrible theming and writing since
+I'm not a writer nor am I a frontend developer so this entire site is just me putting everything together with glue, glitter, and duct tape... lots of duct tape.
+
+Anyways... the ending, I guess...
+
+My github is here: https://github.com/dleto614
+
+Please take time to look at my various projects... some are better than others, but my github is also a way for me to show my progress over the course of several years.
