@@ -34,27 +34,26 @@ title: Blog
 
         <div class="container">
             <!-- Jekyll is built into Github Pages so it was the most logical and simplest way to get a blog going -->
-            <h1>My Blog Posts: </h1>
+            <h1>My Blog Posts:</h1>
 
-            <div class="blog-grid">
                 {% for post in site.posts %}
-                    <article class="blog-card">
-                        <div class="blog-card-content">
-                            <span class="blog-date">{{ post.date | date: "%B %d, %Y" }}</span>
-                            
-                            <h2 class="blog-title">
-                                <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-                            </h2>
-                            
-                            <p class="blog-excerpt">
-                                {{ post.excerpt | strip_html | truncatewords: 30 }}
-                            </p>
-                            
-                            <a href="{{ post.url | relative_url }}" class="read-more">Read More &rarr;</a>
-                        </div>
+                    <article>
+                        <p class="blog-date">{{ post.date | date: "%B %d, %Y" }}</p>
+
+                        <h2>
+                            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                        </h2>
+
+                        <p>
+                            {{ post.excerpt | strip_html | truncatewords: 30 }}
+                        </p>
+
+                        <p>
+                            <a href="{{ post.url | relative_url }}">Read More →</a>
+                        </p>
                     </article>
                 {% endfor %}
-            </div>
+        
         </div>
     </main>
 
