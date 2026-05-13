@@ -29,8 +29,8 @@ stuff like this to try to network or get hired which I feel like loses the soul 
 
 Touching on that a bit more... I started going down this rabbit hole since I was 14/15, but my earliest memories are from around when I was seven years old.
 Back then, I vaguely remember Windows XP, but my early years was largely spent on Windows 7 before Windows 8 and finally Windows 10. I spent a lot of time playing
-Pinball on Windows 7 and when I was around 12 years old, this evolved to playing Minecraft for absurdly long time. This was also around the time I played heavily
-on my Nintendo DS. Most of my video time on that console was Pokemon and I started with Pokemon Platnium, Back then, things were simple and I was
+Pinball on Windows 7 and when I was around 12 years old, this evolved to playing Minecraft for absurdly long times. This was also around the time I played heavily
+on my Nintendo DS. Most of my time spent on that console was on Pokemon and I started with Pokemon Platnium, Back then, things were simple and I was
 oblivious to what was going around me. It was nice...
 
 I remember getting bullied by kids who played Call of Duty, but I was oblivious to most of it. I was in my own little world, but I also had always explored
