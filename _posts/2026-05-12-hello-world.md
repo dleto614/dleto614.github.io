@@ -4,7 +4,7 @@ title: "My First Blog Post"
 date: 2026-05-12
 ---
 
-# Hello World:
+# Hello World
 
 This is just an introduction blog post that I wrote to both introduce my blog and also to test to make sure it works properly.
 
@@ -24,7 +24,7 @@ The idea is to also present ideas and thoughts that are my own even if other peo
 
 ----
 
-### A little about me:
+### A little about me
 
 I have a webpage called "About Me" on this site, but since this is an introductory blog post, I'm going to give a quick rundown:
 
@@ -61,6 +61,8 @@ My favorite colors are red and orange, but unfortunately, both colors are way to
 
 Not entirely sure what else to write about, but most of what I will write about won't be as short. I do apologize for the terrible theming and writing since
 I'm not a writer nor am I a frontend developer so this entire site is just me putting everything together with glue, glitter, and duct tape... lots of duct tape.
+
+### Ending???
 
 Anyways... the ending, I guess...
 
