@@ -64,6 +64,7 @@ I'm not a writer nor am I a frontend developer so this entire site is just me pu
 
 Anyways... the ending, I guess...
 
-My github is here: https://github.com/dleto614
+Visit [My GitHub](https://github.com/dleto614) to see some of my stuff...
 
-Please take time to look at my various projects... some are better than others, but my github is also a way for me to show my progress over the course of several years.
+Please take time to look at my various projects... some are better than others, but my github is also a way for me to show my progress over the course of several years
+and maybe you'll find it useful or even willing to improve on my code.
