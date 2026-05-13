@@ -19,7 +19,8 @@ layout: default
     <body>
 
         <main>
-            <h1> {{ post.title }} </h1> 
+            <h1> {{ post.title }} </h1>
+            <h3> Published on: {{ page.date | date: "%B %d, %Y" }}</h3>
             {{ content }} 
         </main>
 

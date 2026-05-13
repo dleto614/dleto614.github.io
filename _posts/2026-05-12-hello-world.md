@@ -4,7 +4,7 @@ title: "My First Blog Post"
 date: 2026-05-12
 ---
 
-# Hello World
+### Introduction
 
 This is just an introduction blog post that I wrote to both introduce my blog and also to test to make sure it works properly.
 
