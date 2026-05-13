@@ -8,7 +8,7 @@ date: 2026-05-13
 
 Well, well, well... think I finally got this themed and rendering properly... it wasn't easy, but I believe this is working now.
 
-Here is the [GitHub Repository] for my website... I am not a frontend developer so I do apologize for bad code even though most of it is
+Here is the [GitHub Repository](https://github.com/dleto614/dleto614.github.io) for my website... I am not a frontend developer so I do apologize for bad code even though most of it is
 borrowed from other sources.
 
 I like to keep this simple since I don't need anything to complicated to write out my own thoughts in markdown.
