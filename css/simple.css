@@ -106,6 +106,72 @@ html {
   display: table;
 }
 
+/* Container grid to hold the cards side-by-side */
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px 0;
+}
+
+/* Individual card styling */
+.blog-card {
+  background: #ffffff;
+  border: 1px solid #e1e4e8;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  overflow: hidden;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Hover effect to make it feel interactive */
+.blog-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card-content {
+  padding: 20px;
+}
+
+.blog-date {
+  font-size: 0.85rem;
+  color: #586069;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.blog-title {
+  margin: 10px 0;
+  font-size: 1.4rem;
+}
+
+.blog-title a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+.blog-title a:hover {
+  text-decoration: underline;
+}
+
+.blog-excerpt {
+  color: #24292e;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.read-more {
+  display: inline-block;
+  color: #0366d6;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
 body {
   color: var(--text);
   background-color: var(--bg);
