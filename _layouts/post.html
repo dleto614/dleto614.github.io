@@ -1,10 +1,31 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
+    <head>
+            <title> My Personal Site </title>
 
-<article>
-  <h1>{{ page.title }}</h1>
-  <p class="blog-date">{{ page.date | date: "%B %d, %Y" }}</p>
+            <meta name="description" content="My own little corner of the internet.">
+            <meta name="author" content="Alex (not my real name)">
+            <meta charset="UTF-8">
+            <link href="./css/simple.css" rel="stylesheet">
 
-  {{ content }}
-</article>
+            <!-- Add icon library -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+
+    <header>
+        {% include header.html %}
+    </header>
+
+    <body>
+
+    <main>
+        {{ content }}
+    </main>
+
+    </body>
+
+    <footer id="footer">
+        {% include footer.html %}
+    </footer>
+</html>
+
